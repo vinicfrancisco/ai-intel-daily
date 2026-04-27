@@ -1,0 +1,57 @@
+# Fontes da routine Daily AI Intel — Bamse
+# Editar este arquivo para adicionar/remover fontes. A routine lê daqui em cada execução.
+
+blogs:
+  anthropic:
+    - https://www.anthropic.com/news
+    - https://www.anthropic.com/engineering
+    - https://code.claude.com/docs/en/changelog
+  openai:
+    - https://openai.com/news/
+    - https://openai.com/index/?tags=research
+  google_deepmind:
+    - https://deepmind.google/discover/blog/
+    - https://blog.google/technology/google-deepmind/
+  dev_tools:
+    - https://www.cursor.com/blog
+    - https://codeium.com/blog # Windsurf
+    - https://www.cognition.ai/blog
+  frameworks:
+    - https://blog.langchain.dev/
+    - https://www.llamaindex.ai/blog
+    - https://vercel.com/blog/category/ai
+  microsoft_github:
+    - https://github.blog/ai-and-ml/
+    - https://devblogs.microsoft.com/semantic-kernel/
+  vc_thought:
+    - https://a16z.com/category/ai/
+
+hacker_news:
+  endpoint: https://hn.algolia.com/api/v1/search?tags=front_page&numericFilters=points>150
+  keyword_filter:
+    - claude
+    - codex
+    - openai
+    - anthropic
+    - llm
+    - agent
+    - mcp
+    - rag
+    - "ai code"
+    - copilot
+    - cursor
+    - devin
+
+github:
+  # GitHub Search API. A routine deve substituir {since} por (hoje - 1 dia) em ISO 8601.
+  trending_query: "topic:ai-agents OR topic:llm-agents OR topic:claude-code OR topic:mcp OR topic:agentic created:>{since}"
+  endpoint: https://api.github.com/search/repositories?q={query}&sort=stars&order=desc&per_page=15
+  # Para repos já existentes que ganharam stars rapidamente, fallback: scrape de github.com/trending
+  trending_page: https://github.com/trending?since=daily
+
+# Itens a IGNORAR mesmo que apareçam (lista negra editorial)
+exclude_keywords:
+  - "founder fight"
+  - "drama"
+  - "sam altman fired" # exemplo de ruído já saturado
+  - acquisition rumor
