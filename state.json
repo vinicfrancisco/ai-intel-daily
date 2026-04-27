@@ -1,5 +1,36 @@
 {
 	"version": 1,
-	"last_run": null,
-	"reported_items": []
+	"last_run": "2026-04-27T17:16:47Z",
+	"reported_items": [
+		{
+			"url": "https://github.com/mattpocock/skills",
+			"title": "mattpocock/skills",
+			"reported_at": "2026-04-27T17:16:47Z"
+		},
+		{
+			"url": "https://github.com/ComposioHQ/awesome-codex-skills",
+			"title": "ComposioHQ/awesome-codex-skills",
+			"reported_at": "2026-04-27T17:16:47Z"
+		},
+		{
+			"url": "https://www.llamaindex.ai/blog/build-automated-loan-income-verification-with-llamaparse-claude-agent-sdk",
+			"title": "Build Automated Loan Income Verification with LlamaParse + Claude Agent SDK",
+			"reported_at": "2026-04-27T17:16:47Z"
+		},
+		{
+			"url": "https://www.cognition.ai/blog/mercedes-benz-cognition",
+			"title": "Engineering in the fast lane: Mercedes-Benz partners with Cognition",
+			"reported_at": "2026-04-27T17:16:47Z"
+		},
+		{
+			"url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+			"title": "GitHub Copilot is moving to usage-based billing",
+			"reported_at": "2026-04-27T17:16:47Z"
+		},
+		{
+			"url": "https://github.com/dirac-run/dirac",
+			"title": "Show HN: OSS Agent topped the TerminalBench on Gemini-3-flash-preview",
+			"reported_at": "2026-04-27T17:16:47Z"
+		}
+	]
 }
