@@ -6,6 +6,7 @@ blogs:
     - https://www.anthropic.com/news
     - https://www.anthropic.com/engineering
     - https://code.claude.com/docs/en/changelog
+    - https://claude.com/blog
   openai:
     - https://openai.com/news/
     - https://openai.com/index/?tags=research
@@ -19,7 +20,7 @@ blogs:
   frameworks:
     - https://blog.langchain.dev/
     - https://www.llamaindex.ai/blog
-    - https://vercel.com/blog/category/ai
+    - https://vercel.com/blog
   microsoft_github:
     - https://github.blog/ai-and-ml/
     - https://devblogs.microsoft.com/semantic-kernel/
