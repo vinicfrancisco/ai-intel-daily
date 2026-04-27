@@ -6,7 +6,7 @@ A cada execução, a routine:
 Lê state.json para saber o que já foi reportado nos últimos 7 dias.
 Coleta novidades das fontes listadas em sources.yml.
 Filtra, ranqueia e gera um relatório.
-Posta no canal #dev-bamse do Slack via connector.
+Posta no canal #ia do Slack via connector.
 Atualiza state.json e commita em uma branch claude/daily-intel-YYYY-MM-DD.
 
 Arquivos
