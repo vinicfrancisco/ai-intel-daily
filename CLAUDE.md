@@ -22,6 +22,13 @@ Acionável para devs: o filtro mental é "isso muda como o time da Bamse trabalh
 Fontes primárias: o link sempre aponta para a fonte original (blog oficial, repo, release notes), nunca para agregadores tipo TechCrunch reescrevendo um post da Anthropic.
 Honestidade > volume: se o dia tá fraco, a mensagem deve ser "Sem novidades relevantes hoje" + 1-2 itens menores como contexto. Nunca inventar relevância.
 
+Vídeos (YouTube)
+
+Vídeos entram na seção do tópico (lab/tool sendo discutido), não na seção do canal. Use prefixo 🎥 no bullet.
+Tier do canal define o nível de filtro: official_lab passa direto se for anúncio/demo; technical_community só se cobrir release < 72h; high_noise exige segunda fonte confirmando o lançamento.
+Tutoriais sobre tech estável (>30 dias sem release novo associado) ficam de fora — não são novidade.
+Shorts e vídeos de reaction/clickbait são sempre rejeitados (ver reject_title_patterns em sources.yml).
+
 Categorias do relatório
 Ordem fixa, omitindo seções vazias:
 
