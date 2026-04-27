@@ -49,6 +49,86 @@ github:
   # Para repos já existentes que ganharam stars rapidamente, fallback: scrape de github.com/trending
   trending_page: https://github.com/trending?since=daily
 
+youtube:
+  # RSS feed de cada canal (sem auth, sem quota): substituir {channel_id} no template.
+  endpoint_template: "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+
+  channels:
+    # Tier 1 — Labs oficiais. Sinal alto. Filtro padrão (lançamentos, demos, interviews).
+    - name: Anthropic
+      channel_id: UCrDwWp7EBBv4NwvScIpBDOA
+      tier: official_lab
+    - name: OpenAI
+      channel_id: UCXZCJLdBC09xxGZ6gcdrc6A
+      tier: official_lab
+    - name: Google DeepMind
+      channel_id: UCP7jMXSY2xbc3KCAE0MHQ-A
+      tier: official_lab
+    - name: Cognition Labs
+      channel_id: UCZSlhhcoAGUIzxm1i89M9fw
+      tier: official_lab
+
+    # Tier 2 — Comunidade técnica. Aceitar se cobrir release < 72h, paper, ou demo técnica de feature nova.
+    - name: AI Engineer
+      channel_id: UCLKPca3kwwd-B59HNr-_lvA
+      tier: technical_community
+    - name: Latent Space
+      channel_id: UCvi5jNRoRVm436TVAXet1kQ
+      tier: technical_community
+    - name: Indy Dev Dan
+      channel_id: UC_x36zCEGilGpB1m-V4gmjg
+      tier: technical_community
+    - name: Sam Witteveen
+      channel_id: UC55ODQSvARtgSyc8ThfiepQ
+      tier: technical_community
+    - name: Cole Medin
+      channel_id: UCMwVTLZIRRUyyVrkjDpn4pA
+      tier: technical_community
+    - name: AI Jason
+      channel_id: UCrXSVX9a1mj8l0CMLwKgMVw
+      tier: technical_community
+
+    # Tier 3 — Alto ruído ou foco tangencial. Só aceitar com segunda fonte confirmando o lançamento.
+    - name: Matthew Berman
+      channel_id: UCawZsQWqfGSbCI5yjkdVkTA
+      tier: high_noise
+    - name: Chase H AI
+      channel_id: UCoy6cTJ7Tg0dqS-DI-_REsA
+      tier: high_noise
+    - name: Lucas Montano
+      channel_id: UCyHOBY6IDZF9zOKJPou2Rgg
+      tier: high_noise
+
+  # Padrões de título a SEMPRE rejeitar (clickbait, reaction, hype). Match case-insensitive.
+  reject_title_patterns:
+    - "I tested"
+    - "I tried"
+    - "is INSANE"
+    - "MIND BLOWN"
+    - "MIND-BLOWN"
+    - "you NEED to"
+    - "you NEED this"
+    - "BEST AI"
+    - "SHOCKING"
+    - "SECRETS"
+    - "GAME CHANGER"
+    - "GAME-CHANGER"
+    - "Better than"
+    - "vs ChatGPT"
+    - "vs Claude"
+    - "reaction"
+    - "ranked"
+    - "tier list"
+
+  # Critérios de aceitação por tier. A routine aplica isso ANTES do filtro editorial geral.
+  acceptance_rules:
+    official_lab: "Aceitar anúncios, demos oficiais e interviews. Rejeitar Shorts (<60s) e clipes antigos re-uploaded."
+    technical_community: "Aceitar APENAS se título OU descrição mencionarem release/feature/paper das últimas 72h, OU demo técnica de algo recém-lançado. Rejeitar tutoriais sobre tech estável (>30 dias). Em caso de dúvida, rejeitar."
+    high_noise: "Aceitar APENAS se o vídeo cobrir um lançamento concreto que TAMBÉM aparece em outra fonte da lista (blog oficial, HN ou GitHub trending). Sem segunda fonte → rejeitar."
+
+  # Duração mínima para evitar Shorts e teasers
+  min_duration_seconds: 90
+
 # Itens a IGNORAR mesmo que apareçam (lista negra editorial)
 exclude_keywords:
   - "founder fight"

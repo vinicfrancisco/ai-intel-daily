@@ -22,14 +22,24 @@ Use a API da GitHub Search com a query de `sources.yml > github > trending_query
 
 Use a API do Hacker News (Algolia) conforme `sources.yml > hacker_news > endpoint` e filtre por palavras-chave da lista `keyword_filter`.
 
+Para YouTube, faça WebFetch de cada feed RSS em `sources.yml > youtube > channels`, montando a URL com `endpoint_template` substituindo `{channel_id}`. Para cada `<entry>`, extraia: título, link (`<link href>`), descrição (`<media:description>`, primeiros ~300 chars), data (`<published>`), nome do canal e duração quando disponível (`<yt:duration>` ou similar). Mantenha apenas vídeos publicados nas últimas 24h.
+
 ### Passo 2 — Filtragem e deduplicação
 
 Aplique nesta ordem:
 
 1. Remova qualquer item cujo URL canônico já esteja em `state.json > reported_items` com timestamp < 7 dias atrás.
 2. Remova itens que batam com `sources.yml > exclude_keywords`.
-3. Aplique o filtro mental do `CLAUDE.md`: "isso muda como o time Bamse trabalha?". Em caso de dúvida, exclua.
-4. Limite a 6 itens totais. Se houver mais candidatos fortes, prefira diversidade de categorias.
+3. **Filtros específicos para YouTube** (aplicar antes do filtro editorial geral):
+   - Rejeite vídeos cujo título bata com qualquer padrão em `youtube > reject_title_patterns` (case-insensitive).
+   - Rejeite vídeos com duração < `youtube > min_duration_seconds` (Shorts/teasers).
+   - Aplique a regra de aceitação conforme o `tier` do canal em `youtube > acceptance_rules`:
+     - `official_lab`: aceitar anúncios/demos/interviews; rejeitar re-uploads.
+     - `technical_community`: aceitar APENAS se referenciar release/feature/paper das últimas 72h ou demo de algo recém-lançado; rejeitar tutorial sobre tech estável.
+     - `high_noise`: aceitar APENAS se o lançamento coberto também aparecer em outra fonte coletada hoje (blog/HN/GitHub). Sem segunda fonte confirmando → rejeitar sem hesitar.
+   - Em caso de dúvida em qualquer tier → rejeitar (sinal sobre ruído).
+4. Aplique o filtro mental do `CLAUDE.md`: "isso muda como o time Bamse trabalha?". Em caso de dúvida, exclua.
+5. Limite a 6 itens totais. Se houver mais candidatos fortes, prefira diversidade de categorias.
 
 ### Passo 3 — Composição do relatório
 
@@ -56,6 +66,12 @@ Regras de formatação:
 - Títulos no idioma original (geralmente inglês). Descrições sempre em português brasileiro, tom direto e técnico.
 - Nunca cite mais que 15 palavras de qualquer fonte original.
 - Se o total de itens válidos for zero ou um, troque a estrutura por: `*🤖 AI Intel Daily — {data}*\n\nDia calmo. {Se houver 1 item: descrição. Se zero: "Sem novidades relevantes hoje. Volto amanhã."}`
+
+Regras de classificação para vídeos do YouTube:
+
+- Vídeos vão para a seção da categoria do **tópico do vídeo**, não do canal de origem. Exemplos: vídeo do Indy Dev Dan sobre Claude Code → 🟧 Anthropic; vídeo do Cole Medin sobre LangGraph → ⚫ Outros labs e frameworks; vídeo do AI Engineer sobre Devin → 🛠 Ferramentas dev.
+- Use o prefixo `🎥` antes do link no bullet para sinalizar formato vídeo. Ex: `• 🎥 <{url}|{título}> — {descrição PT}`.
+- Se o vídeo for genuinamente sobre dev/agents sem foco em lab/tool específico, considere 💬 Comunidade.
 
 ### Passo 4 — Entrega no Slack
 
