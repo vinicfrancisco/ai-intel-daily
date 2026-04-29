@@ -88,6 +88,9 @@ youtube:
     - name: AI Jason
       channel_id: UCrXSVX9a1mj8l0CMLwKgMVw
       tier: technical_community
+    - name: Simon Scrapes
+      channel_id: UCdCR4-uYOg5ju-IUuDnfnQA
+      tier: technical_community
 
     # Tier 3 — Alto ruído ou foco tangencial. Só aceitar com segunda fonte confirmando o lançamento.
     - name: Matthew Berman
