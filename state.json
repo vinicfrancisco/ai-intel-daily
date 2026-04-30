@@ -1,6 +1,6 @@
 {
 	"version": 1,
-	"last_run": "2026-04-29T10:00:00Z",
+	"last_run": "2026-04-30T10:00:00Z",
 	"reported_items": [
 		{
 			"url": "https://github.com/mattpocock/skills",
@@ -91,6 +91,31 @@
 			"url": "https://github.com/lukilabs/craft-agents-oss",
 			"title": "lukilabs/craft-agents-oss",
 			"reported_at": "2026-04-29T10:00:00Z"
+		},
+		{
+			"url": "https://docs.anthropic.com/en/release-notes/overview",
+			"title": "1M token context window beta retiring for Claude Sonnet 4 and Sonnet 4.5",
+			"reported_at": "2026-04-30T10:00:00Z"
+		},
+		{
+			"url": "https://vercel.com/changelog/gpt-5.5-on-ai-gateway",
+			"title": "GPT-5.5 now available on Vercel AI Gateway",
+			"reported_at": "2026-04-30T10:00:00Z"
+		},
+		{
+			"url": "https://vercel.com/changelog/deepseek-v4-on-ai-gateway",
+			"title": "DeepSeek V4 on AI Gateway",
+			"reported_at": "2026-04-30T10:00:00Z"
+		},
+		{
+			"url": "https://cursor.com/blog/typescript-sdk",
+			"title": "Build programmatic agents with the Cursor SDK",
+			"reported_at": "2026-04-30T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/1jehuang/jcode",
+			"title": "1jehuang/jcode",
+			"reported_at": "2026-04-30T10:00:00Z"
 		}
 	]
 }
