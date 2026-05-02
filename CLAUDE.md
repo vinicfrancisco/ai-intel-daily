@@ -19,6 +19,7 @@ Princípios editoriais
 
 Sinal sobre ruído: máximo 6 itens. É melhor 3 ótimos do que 8 medianos.
 Acionável para devs: o filtro mental é "isso muda como o time da Bamse trabalha?". Lançamento de modelo, nova feature de Claude Code/Codex, novo SDK, novo padrão (MCP, skills, etc.) → entra. Notícia de funding, opinion piece, drama de CEO → fica de fora.
+Estratégia conta como sinal: anúncios oficiais de labs (Anthropic/OpenAI/DeepMind) sobre novos conectores, integrações oficiais com aplicações externas, MCP servers oficiais ou expansão para novos verticais (ex.: "Claude for X") entram, mesmo quando o vertical não é dev. Razão: revelam para onde o ecossistema vai e podem virar trabalho do time amanhã. Continua de fora: posts de liderança/hiring, funding, opinion pieces e policy.
 Fontes primárias: o link sempre aponta para a fonte original (blog oficial, repo, release notes), nunca para agregadores tipo TechCrunch reescrevendo um post da Anthropic.
 Honestidade > volume: se o dia tá fraco, a mensagem deve ser "Sem novidades relevantes hoje" + 1-2 itens menores como contexto. Nunca inventar relevância.
 
