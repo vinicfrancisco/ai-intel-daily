@@ -88,6 +88,30 @@
 			"reported_at": "2026-05-03T10:00:00Z"
 		},
 		{
+			"url": "https://www.anthropic.com/news/claude-code-security",
+			"title": "Making frontier cybersecurity capabilities available to defenders",
+			"reported_at": "2026-05-04T10:00:00Z"
+		},
+		{
+			"url": "https://developers.openai.com/codex/changelog",
+			"title": "Codex changelog — May 3, 2026",
+			"reported_at": "2026-05-04T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/msitarzewski/agency-agents",
+			"title": "msitarzewski/agency-agents",
+			"reported_at": "2026-05-04T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/virattt/dexter",
+			"title": "virattt/dexter",
+			"reported_at": "2026-05-04T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/cocoindex-io/cocoindex",
+			"title": "cocoindex-io/cocoindex",
+			"reported_at": "2026-05-04T10:00:00Z"
+    },
 			"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
 			"title": "Claude Code v2.1.128",
 			"reported_at": "2026-05-05T10:00:00Z"
