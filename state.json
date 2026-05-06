@@ -1,67 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-05-04T10:00:00Z",
+	"last_run": "2026-05-06T10:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://github.com/mattpocock/skills",
-			"title": "mattpocock/skills",
-			"reported_at": "2026-04-27T17:16:47Z"
-		},
-		{
-			"url": "https://github.com/ComposioHQ/awesome-codex-skills",
-			"title": "ComposioHQ/awesome-codex-skills",
-			"reported_at": "2026-04-27T17:16:47Z"
-		},
-		{
-			"url": "https://www.llamaindex.ai/blog/build-automated-loan-income-verification-with-llamaparse-claude-agent-sdk",
-			"title": "Build Automated Loan Income Verification with LlamaParse + Claude Agent SDK",
-			"reported_at": "2026-04-27T17:16:47Z"
-		},
-		{
-			"url": "https://www.cognition.ai/blog/mercedes-benz-cognition",
-			"title": "Engineering in the fast lane: Mercedes-Benz partners with Cognition",
-			"reported_at": "2026-04-27T17:16:47Z"
-		},
-		{
-			"url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
-			"title": "GitHub Copilot is moving to usage-based billing",
-			"reported_at": "2026-04-27T17:16:47Z"
-		},
-		{
-			"url": "https://github.com/dirac-run/dirac",
-			"title": "Show HN: OSS Agent topped the TerminalBench on Gemini-3-flash-preview",
-			"reported_at": "2026-04-27T17:16:47Z"
-		},
-		{
-			"url": "https://code.claude.com/docs/en/changelog#v2.1.121",
-			"title": "Claude Code v2.1.120 + v2.1.121",
-			"reported_at": "2026-04-28T10:00:00Z"
-		},
-		{
-			"url": "https://www.anthropic.com/engineering/april-23-postmortem",
-			"title": "An update on recent Claude Code quality reports",
-			"reported_at": "2026-04-28T10:00:00Z"
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=CD6R4Wf3jnY",
-			"title": "Bringing MCPs to the Enterprise — Karan Sampath, Anthropic",
-			"reported_at": "2026-04-28T10:00:00Z"
-		},
-		{
-			"url": "https://www.youtube.com/watch?v=_A367W_qvc8",
-			"title": "Open Models at Google DeepMind — Cassidy Hardin",
-			"reported_at": "2026-04-28T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/abhigyanpatwari/GitNexus",
-			"title": "abhigyanpatwari/GitNexus",
-			"reported_at": "2026-04-28T10:00:00Z"
-		},
-		{
-			"url": "https://www.cognition.ai/blog/devin-for-terminal",
-			"title": "Devin for Terminal: Start Local, Hand Off to the Cloud",
-			"reported_at": "2026-04-28T10:00:00Z"
-		},
 		{
 			"url": "https://code.claude.com/docs/en/changelog",
 			"title": "Claude Code v2.1.122 + v2.1.123",
@@ -171,6 +111,65 @@
 			"url": "https://github.com/cocoindex-io/cocoindex",
 			"title": "cocoindex-io/cocoindex",
 			"reported_at": "2026-05-04T10:00:00Z"
+    },
+			"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+			"title": "Claude Code v2.1.128",
+			"reported_at": "2026-05-05T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.98.0",
+			"title": "anthropic-sdk-python v0.98.0 + anthropic-sdk-typescript v0.93.0",
+			"reported_at": "2026-05-05T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/openai/openai-python/releases/tag/v2.34.0",
+			"title": "openai-python v2.34.0 + openai-node v6.36.0",
+			"reported_at": "2026-05-05T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/langchain-ai/langgraph/releases",
+			"title": "LangGraph 1.2.0a6 + a7",
+			"reported_at": "2026-05-05T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/forrestchang/andrej-karpathy-skills",
+			"title": "forrestchang/andrej-karpathy-skills",
+			"reported_at": "2026-05-05T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/mksglu/context-mode",
+			"title": "mksglu/context-mode",
+			"reported_at": "2026-05-05T10:00:00Z"
+		},
+		{
+			"url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+			"title": "Advancing Claude for Financial Services",
+			"reported_at": "2026-05-06T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+			"title": "Claude Code v2.1.129",
+			"reported_at": "2026-05-06T10:00:00Z"
+		},
+		{
+			"url": "https://openai.com/index/gpt-5-5-instant/",
+			"title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+			"reported_at": "2026-05-06T10:00:00Z"
+		},
+		{
+			"url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+			"title": "GitHub Copilot is moving to usage-based billing",
+			"reported_at": "2026-05-06T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/addyosmani/agent-skills",
+			"title": "addyosmani/agent-skills",
+			"reported_at": "2026-05-06T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/anthropics/financial-services",
+			"title": "anthropics/financial-services",
+			"reported_at": "2026-05-06T10:00:00Z"
 		}
 	]
 }
