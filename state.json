@@ -1,37 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-05-14T10:00:00Z",
+	"last_run": "2026-05-15T10:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://claude.com/blog/new-in-claude-managed-agents",
-			"title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
-			"reported_at": "2026-05-07T10:00:00Z"
-		},
-		{
-			"url": "https://code.claude.com/docs/en/changelog",
-			"title": "Claude Code v2.1.132 + v2.1.131",
-			"reported_at": "2026-05-07T10:00:00Z"
-		},
-		{
-			"url": "https://cursor.com/changelog/3-3",
-			"title": "Cursor 3.3",
-			"reported_at": "2026-05-07T10:00:00Z"
-		},
-		{
-			"url": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
-			"title": "Validating agentic behavior when \"correct\" isn't deterministic",
-			"reported_at": "2026-05-07T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/vercel-labs/open-agents",
-			"title": "vercel-labs/open-agents",
-			"reported_at": "2026-05-07T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/VectifyAI/PageIndex",
-			"title": "VectifyAI/PageIndex",
-			"reported_at": "2026-05-07T10:00:00Z"
-		},
 		{
 			"url": "https://claude.com/blog/claude-code-plugins",
 			"title": "Customize Claude Code with plugins",
@@ -216,6 +186,36 @@
 			"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
 			"title": "K-Dense-AI/scientific-agent-skills",
 			"reported_at": "2026-05-14T10:00:00Z"
+		},
+		{
+			"url": "https://www.anthropic.com/news/gates-foundation-partnership",
+			"title": "Anthropic forms $200 million partnership with the Gates Foundation",
+			"reported_at": "2026-05-15T10:00:00Z"
+		},
+		{
+			"url": "https://openai.com/index/building-codex-windows-sandbox/",
+			"title": "Building a safe, effective sandbox to enable Codex on Windows",
+			"reported_at": "2026-05-15T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/anthropics/skills",
+			"title": "anthropics/skills",
+			"reported_at": "2026-05-15T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+			"title": "danielmiessler/Personal_AI_Infrastructure",
+			"reported_at": "2026-05-15T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/gsd-build/get-shit-done",
+			"title": "gsd-build/get-shit-done",
+			"reported_at": "2026-05-15T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/atlassian/atlassian-mcp-server",
+			"title": "atlassian/atlassian-mcp-server",
+			"reported_at": "2026-05-15T10:00:00Z"
 		}
 	]
 }
