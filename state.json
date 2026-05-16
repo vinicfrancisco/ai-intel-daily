@@ -1,37 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-05-15T10:00:00Z",
+	"last_run": "2026-05-16T10:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://claude.com/blog/claude-code-plugins",
-			"title": "Customize Claude Code with plugins",
-			"reported_at": "2026-05-08T10:00:00Z"
-		},
-		{
-			"url": "https://claude.com/blog/claude-security-public-beta",
-			"title": "Claude Security is now in public beta",
-			"reported_at": "2026-05-08T10:00:00Z"
-		},
-		{
-			"url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
-			"title": "Advancing voice intelligence with new models in the API",
-			"reported_at": "2026-05-08T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/decolua/9router",
-			"title": "decolua/9router",
-			"reported_at": "2026-05-08T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/LearningCircuit/local-deep-research",
-			"title": "LearningCircuit/local-deep-research",
-			"reported_at": "2026-05-08T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/awslabs/aidlc-workflows",
-			"title": "awslabs/aidlc-workflows",
-			"reported_at": "2026-05-08T10:00:00Z"
-		},
 		{
 			"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
 			"title": "Claude Code v2.1.136 → v2.1.138",
@@ -216,6 +186,36 @@
 			"url": "https://github.com/atlassian/atlassian-mcp-server",
 			"title": "atlassian/atlassian-mcp-server",
 			"reported_at": "2026-05-15T10:00:00Z"
+		},
+		{
+			"url": "https://code.claude.com/docs/en/changelog",
+			"title": "Claude Code 2.1.143",
+			"reported_at": "2026-05-16T10:00:00Z"
+		},
+		{
+			"url": "https://openai.com/index/work-with-codex-from-anywhere/",
+			"title": "Work with Codex from anywhere",
+			"reported_at": "2026-05-16T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/colbymchenry/codegraph",
+			"title": "colbymchenry/codegraph",
+			"reported_at": "2026-05-16T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/anomalyco/opencode",
+			"title": "anomalyco/opencode",
+			"reported_at": "2026-05-16T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/awslabs/agent-plugins",
+			"title": "awslabs/agent-plugins",
+			"reported_at": "2026-05-16T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/HKUDS/CLI-Anything",
+			"title": "HKUDS/CLI-Anything",
+			"reported_at": "2026-05-16T10:00:00Z"
 		}
 	]
 }
