@@ -1,57 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-05-17T10:00:00Z",
+	"last_run": "2026-05-18T10:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
-			"title": "Claude Code v2.1.136 → v2.1.138",
-			"reported_at": "2026-05-09T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-			"title": "ChromeDevTools/chrome-devtools-mcp",
-			"reported_at": "2026-05-09T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/bytedance/UI-TARS-desktop",
-			"title": "bytedance/UI-TARS-desktop",
-			"reported_at": "2026-05-09T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/rohitg00/agentmemory",
-			"title": "rohitg00/agentmemory",
-			"reported_at": "2026-05-09T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/datawhalechina/easy-vibe",
-			"title": "datawhalechina/easy-vibe",
-			"reported_at": "2026-05-09T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/openai/openai-agents-js/blob/main/packages/agents/CHANGELOG.md",
-			"title": "@openai/agents 0.11.1",
-			"reported_at": "2026-05-10T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/affaan-m/everything-claude-code",
-			"title": "affaan-m/everything-claude-code",
-			"reported_at": "2026-05-10T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/jundot/omlx",
-			"title": "jundot/omlx",
-			"reported_at": "2026-05-10T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/datawhalechina/hello-agents",
-			"title": "datawhalechina/hello-agents",
-			"reported_at": "2026-05-10T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/lsdefine/GenericAgent",
-			"title": "lsdefine/GenericAgent",
-			"reported_at": "2026-05-10T10:00:00Z"
-		},
 		{
 			"url": "https://www.anthropic.com/news/higher-limits-spacex",
 			"title": "Higher usage limits for Claude and a compute deal with SpaceX",
@@ -241,6 +191,21 @@
 			"url": "https://github.com/NirDiamant/agents-towards-production",
 			"title": "NirDiamant/agents-towards-production",
 			"reported_at": "2026-05-17T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/humanlayer/12-factor-agents",
+			"title": "humanlayer/12-factor-agents",
+			"reported_at": "2026-05-18T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/Imbad0202/academic-research-skills",
+			"title": "Imbad0202/academic-research-skills",
+			"reported_at": "2026-05-18T10:00:00Z"
+		},
+		{
+			"url": "https://github.com/microsoft/ai-agents-for-beginners",
+			"title": "microsoft/ai-agents-for-beginners",
+			"reported_at": "2026-05-18T10:00:00Z"
 		}
 	]
 }
