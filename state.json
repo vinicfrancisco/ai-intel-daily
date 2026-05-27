@@ -1,37 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-05-26T07:00:00Z",
+	"last_run": "2026-05-27T07:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-			"title": "Anthropic acquires Stainless",
-			"reported_at": "2026-05-19T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
-			"title": "Claude Code 2.1.144",
-			"reported_at": "2026-05-19T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.103.0",
-			"title": "anthropic-sdk-python v0.103.0",
-			"reported_at": "2026-05-19T10:00:00Z"
-		},
-		{
-			"url": "https://openai.com/index/dell-codex-enterprise-partnership/",
-			"title": "OpenAI and Dell Technologies partner to bring Codex to hybrid and on-premises enterprise environments",
-			"reported_at": "2026-05-19T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/multica-ai/andrej-karpathy-skills",
-			"title": "multica-ai/andrej-karpathy-skills",
-			"reported_at": "2026-05-19T10:00:00Z"
-		},
-		{
-			"url": "https://github.com/rohitg00/agentmemory",
-			"title": "rohitg00/agentmemory",
-			"reported_at": "2026-05-19T10:00:00Z"
-		},
 		{
 			"url": "https://blog.google/innovation-and-ai/technology/developers-tools/managed-agents-gemini-api/",
 			"title": "Introducing Managed Agents in the Gemini API",
@@ -176,6 +146,36 @@
 			"url": "https://github.com/thedotmack/claude-mem",
 			"title": "thedotmack/claude-mem",
 			"reported_at": "2026-05-26T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
+			"title": "Claude Code v2.1.152",
+			"reported_at": "2026-05-27T07:00:00Z"
+		},
+		{
+			"url": "https://www.anthropic.com/research/glasswing-initial-update",
+			"title": "Claude Mythos identified 10,000+ software flaws — Project Glasswing initial update",
+			"reported_at": "2026-05-27T07:00:00Z"
+		},
+		{
+			"url": "https://developers.openai.com/codex/changelog",
+			"title": "Codex CLI v0.134.0",
+			"reported_at": "2026-05-27T07:00:00Z"
+		},
+		{
+			"url": "https://github.blog/changelog/2026-05-26-target-copilot-models-to-organizations-with-model-rules/",
+			"title": "Target Copilot models to organizations with model rules",
+			"reported_at": "2026-05-27T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/obra/superpowers",
+			"title": "obra/superpowers",
+			"reported_at": "2026-05-27T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+			"title": "Yeachan-Heo/oh-my-claudecode",
+			"reported_at": "2026-05-27T07:00:00Z"
 		}
 	]
 }
