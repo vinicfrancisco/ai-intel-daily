@@ -1,37 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-06-12T07:00:00Z",
+	"last_run": "2026-06-13T07:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://code.claude.com/docs/en/changelog",
-			"title": "Claude Code v2.1.163 — requiredMinimumVersion, /plugin list, Hooks additionalContext",
-			"reported_at": "2026-06-05T07:00:00Z"
-		},
-		{
-			"url": "https://openai.com/index/chatgpt-memory-dreaming/",
-			"title": "Dreaming: Better memory for a more helpful ChatGPT",
-			"reported_at": "2026-06-05T07:00:00Z"
-		},
-		{
-			"url": "https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update/",
-			"title": "GitHub Copilot in Visual Studio — May update",
-			"reported_at": "2026-06-05T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/MemPalace/mempalace",
-			"title": "MemPalace/mempalace",
-			"reported_at": "2026-06-05T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/HKUDS/Vibe-Trading",
-			"title": "HKUDS/Vibe-Trading",
-			"reported_at": "2026-06-05T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/mvanhorn/last30days-skill",
-			"title": "mvanhorn/last30days-skill",
-			"reported_at": "2026-06-05T07:00:00Z"
-		},
 		{
 			"url": "https://www.anthropic.com/institute/recursive-self-improvement",
 			"title": "When AI Builds Itself",
@@ -226,6 +196,36 @@
 			"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
 			"title": "x1xhlol/system-prompts-and-models-of-ai-tools",
 			"reported_at": "2026-06-12T07:00:00Z"
+		},
+		{
+			"url": "https://www.anthropic.com/news/fable-mythos-access",
+			"title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+			"reported_at": "2026-06-13T07:00:00Z"
+		},
+		{
+			"url": "https://code.claude.com/docs/en/changelog",
+			"title": "Claude Code v2.1.176 — multilingual session titles, footerLinksRegexes, Bedrock credential caching",
+			"reported_at": "2026-06-13T07:00:00Z"
+		},
+		{
+			"url": "https://openai.com/news/",
+			"title": "OpenAI to acquire Ona",
+			"reported_at": "2026-06-13T07:00:00Z"
+		},
+		{
+			"url": "https://vercel.com/changelog/program-agent-harnesses-with-ai-sdk",
+			"title": "AI SDK 7: HarnessAgent — program Claude Code, Codex, Pi and other agent harnesses",
+			"reported_at": "2026-06-13T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/andrewyng/aisuite",
+			"title": "andrewyng/aisuite",
+			"reported_at": "2026-06-13T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/LMCache/LMCache",
+			"title": "LMCache/LMCache",
+			"reported_at": "2026-06-13T07:00:00Z"
 		}
 	]
 }
