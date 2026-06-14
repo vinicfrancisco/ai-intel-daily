@@ -1,37 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-06-13T07:00:00Z",
+	"last_run": "2026-06-14T07:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://www.anthropic.com/institute/recursive-self-improvement",
-			"title": "When AI Builds Itself",
-			"reported_at": "2026-06-06T07:00:00Z"
-		},
-		{
-			"url": "https://www.anthropic.com/news/higher-limits-spacex",
-			"title": "Higher usage limits for Claude and a compute deal with SpaceX",
-			"reported_at": "2026-06-06T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
-			"title": "Claude Code v2.1.166",
-			"reported_at": "2026-06-06T07:00:00Z"
-		},
-		{
-			"url": "https://github.blog/changelog/2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview/",
-			"title": "Enterprise-managed plugins in VS Code in public preview",
-			"reported_at": "2026-06-06T07:00:00Z"
-		},
-		{
-			"url": "https://cursor.com/blog/design-mode",
-			"title": "Direct agents with visual prompts in Design Mode",
-			"reported_at": "2026-06-06T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/lfnovo/open-notebook",
-			"title": "lfnovo/open-notebook",
-			"reported_at": "2026-06-06T07:00:00Z"
-		},
 		{
 			"url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.107.0",
 			"title": "anthropic-sdk-python v0.107.0 — Managed Agents types updates",
@@ -226,6 +196,36 @@
 			"url": "https://github.com/LMCache/LMCache",
 			"title": "LMCache/LMCache",
 			"reported_at": "2026-06-13T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/github/copilot-cli/releases",
+			"title": "Copilot CLI v1.0.62",
+			"reported_at": "2026-06-14T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/Ar9av/obsidian-wiki",
+			"title": "Ar9av/obsidian-wiki",
+			"reported_at": "2026-06-14T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/eyaltoledano/claude-task-master",
+			"title": "eyaltoledano/claude-task-master",
+			"reported_at": "2026-06-14T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/zhukunpenglinyutong/desktop-cc-gui",
+			"title": "zhukunpenglinyutong/desktop-cc-gui",
+			"reported_at": "2026-06-14T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/fabro-sh/fabro",
+			"title": "fabro-sh/fabro",
+			"reported_at": "2026-06-14T07:00:00Z"
+		},
+		{
+			"url": "https://twitter.com/jietang/status/2065784751345287314",
+			"title": "GLM 5.2 Is Out",
+			"reported_at": "2026-06-14T07:00:00Z"
 		}
 	]
 }
