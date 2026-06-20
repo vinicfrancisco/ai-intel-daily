@@ -1,32 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-06-19T07:00:00Z",
+	"last_run": "2026-06-20T07:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://code.claude.com/docs/en/changelog",
-			"title": "Claude Code v2.1.175 — enforceAvailableModels managed setting",
-			"reported_at": "2026-06-12T07:00:00Z"
-		},
-		{
-			"url": "https://code.claude.com/docs/en/changelog",
-			"title": "Claude Code v2.1.174 — /model picker, Bedrock GovCloud, background session env isolation, VSCode usage attribution",
-			"reported_at": "2026-06-12T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/kenn-io/agentsview",
-			"title": "kenn-io/agentsview",
-			"reported_at": "2026-06-12T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/hexo-ai/sia",
-			"title": "hexo-ai/sia",
-			"reported_at": "2026-06-12T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-			"title": "x1xhlol/system-prompts-and-models-of-ai-tools",
-			"reported_at": "2026-06-12T07:00:00Z"
-		},
 		{
 			"url": "https://www.anthropic.com/news/fable-mythos-access",
 			"title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
@@ -216,6 +191,26 @@
 			"url": "https://github.com/github/spec-kit",
 			"title": "github/spec-kit",
 			"reported_at": "2026-06-19T07:00:00Z"
+		},
+		{
+			"url": "https://claude.com/blog/enterprise-managed-auth",
+			"title": "Centrally manage authorization for MCP connectors",
+			"reported_at": "2026-06-20T07:00:00Z"
+		},
+		{
+			"url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api/",
+			"title": "AI credits consumed per user now in the Copilot usage metrics API",
+			"reported_at": "2026-06-20T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/Kilo-Org/kilocode",
+			"title": "Kilo-Org/kilocode",
+			"reported_at": "2026-06-20T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/withastro/flue",
+			"title": "withastro/flue",
+			"reported_at": "2026-06-20T07:00:00Z"
 		}
 	]
 }
