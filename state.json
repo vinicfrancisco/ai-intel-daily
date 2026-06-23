@@ -1,47 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-06-22T07:00:00Z",
+	"last_run": "2026-06-23T07:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://github.com/trycua/cua",
-			"title": "trycua/cua",
-			"reported_at": "2026-06-15T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-			"title": "rohitg00/ai-engineering-from-scratch",
-			"reported_at": "2026-06-15T07:00:00Z"
-		},
-		{
-			"url": "https://code.claude.com/docs/en/changelog",
-			"title": "Claude Code 2.1.178 — Tool(param:value) permissions e skills aninhados",
-			"reported_at": "2026-06-16T07:00:00Z"
-		},
-		{
-			"url": "https://docs.anthropic.com/en/release-notes/overview",
-			"title": "Deprecação de claude-sonnet-4 e claude-opus-4",
-			"reported_at": "2026-06-16T07:00:00Z"
-		},
-		{
-			"url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-			"title": "ClaudeForFoundationModels — SDK Swift para Apple Foundation Models",
-			"reported_at": "2026-06-16T07:00:00Z"
-		},
-		{
-			"url": "https://ai.google.dev/gemini-api/docs/changelog",
-			"title": "Gemini 3.1 Flash Image e Gemini 3 Pro Image em GA",
-			"reported_at": "2026-06-16T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/Egonex-AI/Understand-Anything",
-			"title": "Egonex-AI/Understand-Anything",
-			"reported_at": "2026-06-16T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/JuliusBrussee/caveman",
-			"title": "JuliusBrussee/caveman",
-			"reported_at": "2026-06-16T07:00:00Z"
-		},
 		{
 			"url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
 			"title": "SpaceX to buy Anysphere (Cursor) for $60B",
@@ -196,6 +156,36 @@
 			"url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
 			"title": "Building reliable agentic AI systems",
 			"reported_at": "2026-06-22T07:00:00Z"
+		},
+		{
+			"url": "https://blog.google/products/gemini/gemini-3/",
+			"title": "Gemini 3: Introducing the latest Gemini AI model from Google",
+			"reported_at": "2026-06-23T07:00:00Z"
+		},
+		{
+			"url": "https://code.claude.com/docs/en/changelog",
+			"title": "Claude Code 2.1.186 — claude mcp login/logout e respondToBashCommands",
+			"reported_at": "2026-06-23T07:00:00Z"
+		},
+		{
+			"url": "https://openai.com/index/patch-the-planet/",
+			"title": "Daybreak expansion: Patch the Planet and full GPT-5.5-Cyber release",
+			"reported_at": "2026-06-23T07:00:00Z"
+		},
+		{
+			"url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides/",
+			"title": "New features and Claude as agent provider preview in JetBrains IDEs",
+			"reported_at": "2026-06-23T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/calesthio/OpenMontage",
+			"title": "calesthio/OpenMontage",
+			"reported_at": "2026-06-23T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/NousResearch/hermes-agent",
+			"title": "NousResearch/hermes-agent",
+			"reported_at": "2026-06-23T07:00:00Z"
 		}
 	]
 }
