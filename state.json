@@ -1,37 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-06-24T07:00:00Z",
+	"last_run": "2026-06-25T07:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
-			"title": "SpaceX to buy Anysphere (Cursor) for $60B",
-			"reported_at": "2026-06-17T07:00:00Z"
-		},
-		{
-			"url": "https://vercel.com/ship",
-			"title": "Vercel Agent — Vercel Ship 26 London",
-			"reported_at": "2026-06-17T07:00:00Z"
-		},
-		{
-			"url": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers/",
-			"title": "GitHub Models is no longer available to new customers",
-			"reported_at": "2026-06-17T07:00:00Z"
-		},
-		{
-			"url": "https://deepmind.google/models/gemma/embeddinggemma/",
-			"title": "EmbeddingGemma: Powerful and Lightweight Text Representations",
-			"reported_at": "2026-06-17T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/mattpocock/skills",
-			"title": "mattpocock/skills",
-			"reported_at": "2026-06-17T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/obra/superpowers",
-			"title": "obra/superpowers",
-			"reported_at": "2026-06-17T07:00:00Z"
-		},
 		{
 			"url": "https://code.claude.com/docs/en/changelog",
 			"title": "Claude Code v2.1.181 — /config key=value, CLAUDE_CLIENT_PRESENCE_FILE, Bun 1.4",
@@ -216,6 +186,36 @@
 			"url": "https://github.com/stablyai/orca",
 			"title": "stablyai/orca",
 			"reported_at": "2026-06-24T07:00:00Z"
+		},
+		{
+			"url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+			"title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+			"reported_at": "2026-06-25T07:00:00Z"
+		},
+		{
+			"url": "https://blog.google/products/gemini/gemini-3-flash/",
+			"title": "Introducing Gemini 3 Flash: Benchmarks, global availability",
+			"reported_at": "2026-06-25T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+			"title": "mukul975/Anthropic-Cybersecurity-Skills",
+			"reported_at": "2026-06-25T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/JCodesMore/ai-website-cloner-template",
+			"title": "JCodesMore/ai-website-cloner-template",
+			"reported_at": "2026-06-25T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/shanraisshan/claude-code-best-practice",
+			"title": "shanraisshan/claude-code-best-practice",
+			"reported_at": "2026-06-25T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/opendatalab/MinerU",
+			"title": "opendatalab/MinerU",
+			"reported_at": "2026-06-25T07:00:00Z"
 		}
 	]
 }
