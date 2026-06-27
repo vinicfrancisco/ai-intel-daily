@@ -1,37 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-06-26T07:00:00Z",
+	"last_run": "2026-06-27T07:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://code.claude.com/docs/en/changelog",
-			"title": "Claude Code v2.1.183 — guardrails para comandos destrutivos, attribution.sessionUrl",
-			"reported_at": "2026-06-19T07:00:00Z"
-		},
-		{
-			"url": "https://www.anthropic.com/research/project-fetch-phase-two",
-			"title": "Project Fetch: Phase two",
-			"reported_at": "2026-06-19T07:00:00Z"
-		},
-		{
-			"url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-			"title": "Securing internal systems against increasingly capable and imperfectly aligned AI",
-			"reported_at": "2026-06-19T07:00:00Z"
-		},
-		{
-			"url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements/",
-			"title": "Copilot code review: AGENTS.md support and UI improvements",
-			"reported_at": "2026-06-19T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/chopratejas/headroom",
-			"title": "chopratejas/headroom",
-			"reported_at": "2026-06-19T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/github/spec-kit",
-			"title": "github/spec-kit",
-			"reported_at": "2026-06-19T07:00:00Z"
-		},
 		{
 			"url": "https://claude.com/blog/enterprise-managed-auth",
 			"title": "Centrally manage authorization for MCP connectors",
@@ -216,6 +186,36 @@
 			"url": "https://github.com/aws/agent-toolkit-for-aws",
 			"title": "aws/agent-toolkit-for-aws",
 			"reported_at": "2026-06-26T07:00:00Z"
+		},
+		{
+			"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+			"title": "Anthropic Economic Index report: Cadences",
+			"reported_at": "2026-06-27T07:00:00Z"
+		},
+		{
+			"url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+			"title": "Previewing GPT-5.6 Sol: a next-generation model",
+			"reported_at": "2026-06-27T07:00:00Z"
+		},
+		{
+			"url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise/",
+			"title": "MAI-Code-1-Flash for Copilot Business and Enterprise",
+			"reported_at": "2026-06-27T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/xbtlin/ai-berkshire",
+			"title": "xbtlin/ai-berkshire",
+			"reported_at": "2026-06-27T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/anomalyco/opencode",
+			"title": "anomalyco/opencode",
+			"reported_at": "2026-06-27T07:00:00Z"
+		},
+		{
+			"url": "https://www.fernandoi.cl/posts/hackmyclaw/",
+			"title": "What happened after 2k people tried to hack my AI assistant",
+			"reported_at": "2026-06-27T07:00:00Z"
 		}
 	]
 }
