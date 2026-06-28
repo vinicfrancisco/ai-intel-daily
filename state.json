@@ -1,27 +1,7 @@
 {
 	"version": 1,
-	"last_run": "2026-06-27T07:00:00Z",
+	"last_run": "2026-06-28T07:00:00Z",
 	"reported_items": [
-		{
-			"url": "https://claude.com/blog/enterprise-managed-auth",
-			"title": "Centrally manage authorization for MCP connectors",
-			"reported_at": "2026-06-20T07:00:00Z"
-		},
-		{
-			"url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api/",
-			"title": "AI credits consumed per user now in the Copilot usage metrics API",
-			"reported_at": "2026-06-20T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/Kilo-Org/kilocode",
-			"title": "Kilo-Org/kilocode",
-			"reported_at": "2026-06-20T07:00:00Z"
-		},
-		{
-			"url": "https://github.com/withastro/flue",
-			"title": "withastro/flue",
-			"reported_at": "2026-06-20T07:00:00Z"
-		},
 		{
 			"url": "https://github.com/bytedance/deer-flow",
 			"title": "bytedance/deer-flow",
@@ -216,6 +196,31 @@
 			"url": "https://www.fernandoi.cl/posts/hackmyclaw/",
 			"title": "What happened after 2k people tried to hack my AI assistant",
 			"reported_at": "2026-06-27T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/modelcontextprotocol/python-sdk/releases",
+			"title": "MCP Python SDK – v2.0 beta ramp",
+			"reported_at": "2026-06-28T07:00:00Z"
+		},
+		{
+			"url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration/",
+			"title": "GitHub Desktop 3.6: Worktrees and deeper Copilot integration",
+			"reported_at": "2026-06-28T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/DeusData/codebase-memory-mcp",
+			"title": "DeusData/codebase-memory-mcp",
+			"reported_at": "2026-06-28T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/browser-use/video-use",
+			"title": "browser-use/video-use",
+			"reported_at": "2026-06-28T07:00:00Z"
+		},
+		{
+			"url": "https://github.com/usestrix/strix",
+			"title": "usestrix/strix",
+			"reported_at": "2026-06-28T07:00:00Z"
 		}
 	]
 }
